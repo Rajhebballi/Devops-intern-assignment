@@ -1,0 +1,34 @@
+############################
+# Secrets & Keys
+############################
+*.pem
+*.key
+*.ppk
+*.env
+.env.*
+
+############################
+# Node.js / Express
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################
+# Terraform
+############################
+.terraform/
+*.tfstate
+*.tfstate.backup
+.crash.log
+*.tfvars
+
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
